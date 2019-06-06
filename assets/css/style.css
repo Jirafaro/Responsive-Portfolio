@@ -1,0 +1,260 @@
+* {
+    margin: 0 auto; 
+}
+header {
+    display: inline-block;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(48, 46, 46);
+    position: relative; 
+    height: 50px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+}
+
+.name {
+    padding-bottom: 0px;
+    position: absolute;
+    background-color: rgb(43, 42, 42);
+    height: 50px;
+    width: 220px;
+    margin-left: 30px;
+    bottom: 0px;
+}
+
+div {
+    padding: 20px;
+  }
+
+body {
+    background-image: url("../images/12.jpg")
+}
+
+nav {
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    right: 20px;
+    /* display: 16px; */
+    list-style-type: disc;
+    padding-left: 0;
+    bottom: 0px;
+}
+
+li a {
+    padding: 16px;
+    color: rgb(255, 253, 253);
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+section {
+      background-color: #3d3c3c;
+      text-align: center;
+  }
+
+.content1 {
+      width: 950px;
+      height: 100%;
+      margin: 0 auto;
+}
+
+.content {
+    width: 950px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+img {
+    margin: 1px 20px 10px 50px;
+}
+
+h2 {
+    margin: 20px 15px 10px 15px;
+    color: #ffffff;
+}
+
+.colum {
+    position: relative;
+    display: inline-block;
+}
+
+.text {
+    background-color: blue;
+    color: white;
+    height: 40px;
+    text-align: center;
+    width: 175px;
+    padding-top: 25px;
+    position: absolute;
+    top: 235px;
+    left: 82px;
+}
+
+footer {
+    bottom: -13px;
+    padding: 20px;
+    border-color: aqua;
+    text-align: center;
+    background-color: rgb(48, 46, 46);
+    margin-top: 60px;
+    border: 10px;
+    position: relative;
+    color: #ffffff;
+}
+
+.hr1 {
+    background-color: #fff;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 6px;
+    border: 0;
+    position: absolute;
+}
+
+.picture {
+    margin: 0px 0px 0px -239px;
+}
+
+.Abouttext {
+    margin: -590px 26px 170px 415px;
+    color: #ffffff;
+}
+
+#Contactname {
+    width:600px;
+}
+
+#Contactemail {
+    width: 600px;
+}
+
+#Contactmessage {
+    width: 600px;
+    height: 321px;
+    vertical-align: top;
+}
+
+.footer2 {
+    bottom: -219px;
+    padding: 20px;
+    border-color: aqua;
+    text-align: center;
+    background-color: rgb(48, 46, 46);
+    margin-top: 60px;
+    border: 10px;
+    position: relative;
+    color: #ffffff;
+}
+
+.button {
+    padding: 20px;
+    width: 100px;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+}
+
+@media all and (max-width: 980px){
+    .content {
+       margin: 20px 0px 0px 20px;
+       max-width: 85vw; 
+       max-height: 70vw;
+    }
+    footer {
+        margin: 99px 0px 0px 0px;
+    }
+    header {
+        width: 100%;
+}
+    .content1 {
+       margin: 20px 0px 0px 20px;
+       max-width: 85vw; 
+       max-height: 80%;
+    }
+}
+
+@media all and (max-width: 768px){
+    .content {
+        max-width: 96vw;
+        max-height: 95vw;
+    }
+    footer {
+        margin: 99px 0px 0px 0px;
+        width: 102%;
+    }
+    header {
+        width: 101%;
+}
+.name {
+    padding-bottom: 0px;
+    position: absolute;
+    background-color: rgb(43, 42, 42);
+    height: 50px;
+    width: 200px;
+    margin-left: -10px;
+    bottom: 0px;
+}
+.picture {
+    margin: -5px -67px 0px -239px;
+}
+.Abouttext {
+    margin: -658px 20px 189px 372px;
+    color: #ffffff;
+}
+    .content1 {
+       margin: 20px 0px 0px 20px;
+       max-width: 85vw; 
+       max-height: 80%;
+    }
+}
+
+@media all and (max-width: 640px){
+    .content {
+        max-width: 95vw;
+        max-height: 187vw;
+    }
+    footer {
+        margin: 115px 0px 0px 0px;
+    }
+    header {
+        width: 100%;
+}
+.name {
+    padding-bottom: 0px;
+    position: absolute;
+    background-color: rgb(43, 42, 42);
+    height: 50px;
+    width: 200px;
+    margin-left: -10px;
+    bottom: 0px;
+}
+.picture {
+    margin: 0px -67px 0px -187px;
+}
+.Abouttext {
+    margin: -658px 20px 189px 372px;
+    color: #ffffff;
+}
+    .content1 {
+       margin: 20px 0px 0px 20px;
+       max-width: 85vw; 
+       max-height: 80%;
+    }
+}
+
